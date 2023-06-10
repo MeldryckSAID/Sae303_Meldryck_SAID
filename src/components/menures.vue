@@ -26,16 +26,16 @@ const menuVisible = ref(true);
       <ul class="font-inter leading-extra-loose font-Montserrat m-8 flex flex-col text-center text-xl">
         <li class="mb-7 flex justify-center">
           <router-link class="hover:text-jaune-100 text-white no-underline" to="/">
-            <img class="w-1/4  " src="public\img\logo.svg" alt="Logo" />
+            <img class="w-1/4" src="@/public\img\logo.svg" alt="Logo" />
           </router-link>
         </li>
         <li class="mb-7">
-          <router-link class=" text-white no-underline" to="/bar">
+          <router-link class="text-white no-underline" to="/bar">
             <p class="font-semibold hover:border-b hover:border-white hover:text-vert">Genres</p>
           </router-link>
         </li>
         <li class="mb-7">
-          <router-link class=" text-white no-underline" to="/line">
+          <router-link class="text-white no-underline" to="/line">
             <p class="font-semibold hover:border-b hover:border-white hover:text-vert">Ouverture</p>
           </router-link>
         </li>
@@ -44,8 +44,6 @@ const menuVisible = ref(true);
             <p class="font-semibold hover:border-b hover:border-white hover:text-vert">Les festivals</p>
           </router-link>
         </li>
-       
-    
 
         <li class="mb-7">
           <router-link class="shrink-0 text-white" to="/dpt">
@@ -53,7 +51,7 @@ const menuVisible = ref(true);
           </router-link>
         </li>
         <li class="mb-7">
-          <router-link class=" text-white no-underline" to="/map">
+          <router-link class="text-white no-underline" to="/map">
             <p class="font-semibold hover:border-b hover:border-white hover:text-vert">Région</p>
           </router-link>
         </li>
@@ -65,7 +63,7 @@ const menuVisible = ref(true);
       <div class="hidden justify-between lg:flex">
         <div class="flex items-center">
           <RouterLink class="font-yeseva text-5xl" to="/">
-            <img class="w-1/5 m-4" src="public\img\logo.svg" alt="Logo" />
+            <img class="m-4 w-1/5" src="public\img\logo.svg" alt="Logo" />
           </RouterLink>
         </div>
 
@@ -89,10 +87,12 @@ const menuVisible = ref(true);
       </div>
     </div>
 
-    <div class="mb-12 lg:hidden bg-black">
+    <div class="mb-12 bg-black lg:hidden">
       <div class="flex items-center justify-between">
         <div class="mx-4 mt-4">
-          <RouterLink class="font-yeseva text-5xl text-black" to="/"> <img class="w-2/4" src="public\img\logo.svg" alt="Logo" /> </RouterLink>
+          <RouterLink class="font-yeseva text-5xl text-black" to="/">
+            <img class="w-2/4" src="public\img\logo.svg" alt="Logo" />
+          </RouterLink>
         </div>
         <button v-on:click="menuVisible = !menuVisible" class="mx-4">
           <svg
