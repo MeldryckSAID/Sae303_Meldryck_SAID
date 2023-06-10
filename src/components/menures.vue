@@ -26,7 +26,7 @@ const menuVisible = ref(true);
       <ul class="font-inter leading-extra-loose font-Montserrat m-8 flex flex-col text-center text-xl">
         <li class="mb-7 flex justify-center">
           <router-link class="hover:text-jaune-100 text-white no-underline" to="/">
-            <img class="w-1/4" src="@/public\img\logo.svg" alt="Logo" />
+            <img class="w-1/4" src="../../public/img/logo.svg" alt="Logo" />
           </router-link>
         </li>
         <li class="mb-7">
