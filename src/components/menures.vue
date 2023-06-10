@@ -63,7 +63,7 @@ const menuVisible = ref(true);
       <div class="hidden justify-between lg:flex">
         <div class="flex items-center">
           <RouterLink class="font-yeseva text-5xl" to="/">
-            <img class="m-4 w-1/5" src="public\img\logo.svg" alt="Logo" />
+            <img class="m-4 w-1/5" src="../../public/img/logo.svg" alt="Logo" />
           </RouterLink>
         </div>
 
@@ -91,7 +91,7 @@ const menuVisible = ref(true);
       <div class="flex items-center justify-between">
         <div class="mx-4 mt-4">
           <RouterLink class="font-yeseva text-5xl text-black" to="/">
-            <img class="w-2/4" src="public\img\logo.svg" alt="Logo" />
+            <img class="w-2/4" src="../../public/img/logo.svg" alt="Logo" />
           </RouterLink>
         </div>
         <button v-on:click="menuVisible = !menuVisible" class="mx-4">
